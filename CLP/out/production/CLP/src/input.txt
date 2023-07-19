@@ -1,0 +1,11 @@
+int a;
+int b;
+int h(int f) {
+    int y;
+    y = 1;
+    if (f <= 0) { y }
+    else { f * h(f-1) }
+}
+a = 5;
+b = 2;
+h(a-b)
